@@ -4,7 +4,7 @@ import { format, addDays, parseISO } from 'date-fns';
 export default function MeatOrderGrid() {
   // Locked usage factors
   const usageLarge = 0.64;
-  const usageSmall = 0.12;
+  const usageSmall = 0.15;
 
   const [deliveryDate, setDeliveryDate] = useState('');
   const [durationDays, setDurationDays] = useState('');
